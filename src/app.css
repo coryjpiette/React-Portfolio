@@ -1,7 +1,4 @@
-body {
-  
-    padding-bottom: 130px;
-  }
+
 
   a:hover {
     color: teal;
@@ -18,12 +15,6 @@ body {
   }
   
 
-  .resume {
-    color:teal;
-    position: relative;
-    bottom: 0.5px;
-  }
-  
   .github {
     position: relative;
     bottom: 2px;
@@ -33,16 +24,16 @@ body {
     position: relative;
     bottom: 2px;
   }
-  
-  .active {
-    background-color: #666666 !important;
+
+
+
+  .resume {
+    color:teal;
+    position: relative;
+    bottom: 0.5px;
   }
   
-  .container-fluid {
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    padding: 0;
-  }
+
   
   h1 {
     color:#ffffff;
@@ -54,6 +45,37 @@ body {
     font-weight: bold;
   }
   
+  .profile-pic {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  
+  .bio {
+    margin: 20px;
+  }
+  .footer {
+    background-color: #666666;
+    color: #dddddd;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+  }
+
+
+
+  .active {
+    background-color: #666666 !important;
+  }
+  
+  .container-fluid {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding: 0;
+  }
+
   nav {
     margin: auto 0;
     border:0;
@@ -76,25 +98,7 @@ body {
     top: 35px;
   }
   
-  .profile-pic {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-  }
-  
-  .bio {
-    margin: 20px;
-  }
-  .footer {
-    background-color: #666666;
-    color: #dddddd;
-    border-top: 8px solid #4aaaa5;
-    height: 60px;
-    position: fixed;
-    bottom: 0;
-    width:100%;
-  }
-  
+ 
   .copyright {
     position: relative;
     top: 15px;
@@ -108,6 +112,21 @@ body {
     margin-top: 20px;
   
   }
+
+  button[type=button]:hover{
+    background-color:#666666;
+  }
+  
+  button[type=submit] {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    border: none;
+  }
+  
+  button[type=submit]:hover{
+    background-color:#666666;
+  }
+  
   
   .deployedBtn {
     background-color: #4aaaa5;
@@ -125,17 +144,4 @@ body {
   }
   
 
-  button[type=button]:hover{
-    background-color:#666666;
-  }
-  
-  button[type=submit] {
-    background-color: #4aaaa5;
-    color:#ffffff;
-    border: none;
-  }
-  
-  button[type=submit]:hover{
-    background-color:#666666;
-  }
-  
+ 

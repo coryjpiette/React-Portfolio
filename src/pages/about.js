@@ -12,11 +12,11 @@ function About() {
             <h2>About Me</h2>
             <Row>
               <Col size="sm-12">
-               
+
                 <div className="bio">
                   <p>
 
-                  I graduated from Johns Hopkins University with a B.S. in Biomedical Engineering and from Penn
+                    I graduated from Johns Hopkins University with a B.S. in Biomedical Engineering and from Penn
                     State
                     University with an MBA in Finance and Supply Chain Management. I’ve spent the majority of my
                     post-college career working in the financial industry, primarily in fixed income and derivative
@@ -28,7 +28,7 @@ function About() {
 
                   </p>
 
-                  </div>
+                </div>
               </Col>
             </Row>
           </div>
